@@ -1,11 +1,4 @@
-Teste
 
 
-Realizando novo teste
+Adicionando linha no meio Master
 
-
-
-Modificar este arquivo
-
-
-Alteração de arquivo na branch v2
