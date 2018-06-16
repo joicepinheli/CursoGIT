@@ -1,0 +1,130 @@
+ls -l = Listar Pastas
+mkdir = Criar Pastas
+cd = Ir para diretório
+cd .. = Sair do diretórioatual
+rm = Remover arquivos e não pastas
+rm -rf = Remover pastas e arquivos [r - recursivo / f  - force]
+rm [--help] = Consultar opções (manual) disponíveis para o comando
+rm <--help> | more = Consultar opções (manual) disponíveis linha por linha
+q = encerra o comando More (equivalente ao quit)
+CTRL + L /// clear = Limpar a tela
+exit = Fechar
+nano = Editor de texto
+mv = Mover ou renomear o arquivo
+mv <arquivo> [pasta]/ = Mover arquivo para outra pasta
+
+comando <paramêtro entre sinal de maior/menor> = Obrigatório o parametro
+comando [paramêtro em colchetes] = Não obrigatório o parametro
+ls [Outro diretório]/ = Para visualizar os arquivos de outra pasta
+ls -a = Exibe todos os arquivos inclusive os ocultos
+
+cat [nome do arquivo] = Para visualizar o conteúdo do arquivo
+touch [nome do arquivo] = Para criar um novo arquivo, ou atualizar um arquivo existente sem deletar
+git init = Tudo o que está na pasta, será versionado. Determina esta pasta, como repositório
+
+git config --global user.name "Nome do Usuário" = Para identificar o colaborador que irá realizar as alterações no projeto
+
+git config --global user.email "E-mail do Usuário" = Para identificar o colaborador que irá realizar as alterações no projeto
+
+git config user.name/email = Para consultar a identificação
+
+git config --list = Para consultar nome e e-mail configurados
+
+git init --help = Consulta opções do comando
+
+git status = Exibe status dos arquivos do projeto
+
+Status [untracked] = Não versionado
+
+git add [Nome do arquivo] = Para comitar o arquivo. Enviar para a stage area
+
+git add * = Para comitar todos os arquivos, filtrado pelo formato
+
+git add . = Para comitar todos os arquivos, sem exceção
+
+git commit -m "Escrever a Mensagem"= Versionar com uma mensagem
+
+git log = Consulta os commit realizados
+
+HEAD = Ponteiro da linha do tempo, existe aonde você está
+
+git log --reverse = Exibe a lista de logs do mais antigo para o atual
+
+git log --summary = Exibe os logs, detalhes e arquivos alterados
+
+git log --oneline = Exibe somente as alterações realizadas. Não exibe o autor da alteração
+
+git checkout <identificador> = Para navegar entre as versões do projeto
+
+git checkout Master = Para ir para a versão mais recente
+
+git diff = Mostra as alterações realizadas do ultimo arquivo e arquivo atual
+
+git diff <identificador>..<identificador> = Comparar entre 2 git ou 2 branch
+
+git diff checkout <nome do arquivo> = Para desfazer a ultima alteração de uma arquivo não commitado
+
+git checkout <commit> <arquivo> = Para restaurar o arquivo para uma versão anterior
+
+git clean -fd = remove arquivos novos que ainda não são monitorados 
+
+git reset HEAD <arquivo> = Remover arquivos da stage area
+
+git reset --hard HEAD~<Número> = Apaga as alterações, iniciando pelo mais recente (0-Zero)
+
+git reflog = Mantem o histórico de todos os commit após serem excluídos, para possível recuperação
+
+git merge <número> = Para recuperação do arquivo
+
+git reset --soft HEAD~<número> = Para desfazer ultimo commit, o arquivo fica na stage area
+
+git reset --mixed HEAD~<número> = Desfaz a alteração e fica na área para add e commit
+
+git revert HEAD~<número> = Retorna versões anteriores , mantendo o histórico da versão atual.
+
+git stash = Você faz uma "pilha" de alteração, e aos poucos recupera, sem a necessidade de realizar commit
+
+git stash list = Utilizado para recuperar as alterações "salvas" pelo comando stash
+
+git stash apply = Para recuperar a alteração
+
+git stash pop = Apaga as alterações
+
+git tag <identificador> = Identifica o git por Tag (nome), ao inves de utilizar o número identificador
+
+git tag = Lista todas as tags
+
+git tag -d <nome> = Apaga a tag nomeada
+
+git branch <identificador> = Criado a partir do HEAD (Linha do Tempo)
+
+git checkout <identificador> = Para acessar a nova branch
+
+git checkout -d <identificado> = Cria e acessa a nova branch
+
+git branch = Exibe todas as branch criadas
+
+git checkout master = Para voltar para a branch master
+
+git cherry-pick <identificador> = Para mesclar apenas um commit de acordo com o identificador. Para mesclar todos, deve ser usado o "git merge"
+
+git blame <arquivo> = Exibe o usuário que fez as alterações
+
+Conflito durante o Merge:
+- Primeiro verificar o código que estamos mexendo, para depois verificar o códig que deu conflito.
+
+touch .gitignore = criar arquivo para ignorar arquivos que não fazem parte do projeto
+
+gitignore.io = Site que facilita a criação do arquivo gitignore
+
+
+
+
+
+
+
+
+
+
+
+
