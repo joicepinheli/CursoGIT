@@ -1,3 +1,6 @@
+<<<<<<< HEAD
 b
 
 Nova alteração de arquivo
+=======
+>>>>>>> parent of 88ccac1... Arquivos Modificados

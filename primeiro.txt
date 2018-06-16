@@ -1,3 +1,6 @@
+<<<<<<< HEAD
 a
 
 novo texto
+=======
+>>>>>>> parent of 88ccac1... Arquivos Modificados
